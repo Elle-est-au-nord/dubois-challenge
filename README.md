@@ -3,7 +3,7 @@
 ![Digital collage of 2 portraits of DuBois and images of some of his work for the 1900 Paris Exhibition](web-dubois-cover.jpg)
 
 
-It is a data visualization challenge created in 2021 by Anthony Starks, Allen Hillery and Sekou Tyler to celebrate William Edward Burghardt DuBois' legacy and especially his "American negro" exhibit created for the 1900 Paris Exhibition (Exposition Universelle). See images of Dubois' work for the Paris exhibit on the website of the Library of Congress [here](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic).
+It is a data visualization challenge created in 2021 by Anthony Starks (@ajstarks), Allen Hillery (@AlDataVizGuy) and Sekou Tyler (@sqlsekou) to celebrate William Edward Burghardt DuBois' legacy and especially his "American negro" exhibit created for the 1900 Paris Exhibition (Exposition Universelle). See images of Dubois' work for the Paris exhibit on the website of the Library of Congress [here](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic).
 
 W.E.B. Dubois (USA, 1868- Ghana, 1963) was a Pan-Africanist sociologist and civil rights activist. He was once of the founders of the NAACP and a professor at Atlanta University. [Read more](https://en.wikipedia.org/wiki/W._E._B._Du_Bois)
 
