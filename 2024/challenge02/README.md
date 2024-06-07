@@ -1,6 +1,8 @@
 # #DuBoisChallenge2024 - Challenge 02
 ### Slave and Free Negroes (plate 12), February 12
-![Original plate 12](original-plate-12.jpg)
+My contribution was made with python and Canva.
 
-My contribution made with python and Canva:
-![reproduction of plate 12](duboischallenge2024_02_emayola.jpg)
+<div>
+<img src="original-plate-12.jpg" alt="Original plate 12" width="350"/>
+<img src="duboischallenge2024_02_emayola.jpg" alt="reproduction of plate 12" width="350"/>
+</div>
