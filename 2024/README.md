@@ -5,7 +5,7 @@
 There was a total of 10 weekly challenges between February 5 and April 8 2024.
 "This year the theme for the challenge will be organized around the colors of the Pan African flag: Challenges 1-3: red, Challenges 4-6: black, Challenges 7-9: green, Challenge 10: a combination."
 
-I shared my contributions on Twitter, [Bluesky](https://bsky.app/profile/eleonore.bsky.social/post/3kl3bi3vwqn2z) and IG.
+I shared my contributions on Twitter, [Bluesky](https://bsky.app/profile/eleonore.bsky.social/post/3kl3bi3vwqn2z) and IG. You can see the entries shared on social media by checking the hashtag __#DuBoisChallenge2024__.
 
 Find Anthony Starks' retrospective for this year 👉🏿 [here](https://speakerdeck.com/ajstarks/du-bois-challenge-2024-recap).
 

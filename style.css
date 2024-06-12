@@ -1,0 +1,106 @@
+/* Header and Footer background created by Dan Cristian Pădureț from Pexels */
+/* source:https://www.pexels.com/photo/brown-crumpled-paper-bag-on-table-5102221/ */
+header {
+  background-image: url("web-dubois-cover.jpg"), url("img/pexels-paduret-5102221_.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  height: 35vh;
+  max-width: 100%;
+}
+
+header h1 {
+  z-index: 10;
+  position: absolute;
+  color: #eceff4;
+  text-shadow: 4px 4px 10px #552b27;
+}
+
+.special-challenge {
+  background-color: #fff;
+  text-align: center;
+}
+.special-challenge h1 {
+  color: #552b27;
+  text-shadow: 4px 4px 6px #f7e9d5;
+  overflow-wrap: break-word;
+}
+.special-challenge .gh {
+  /* Github logo created by Guillaume Beaulieu from Noun Project */
+  /* source:https://thenounproject.com/icon/github-4289652/ */
+  width: 12%;
+  object-fit: contain;
+}
+.special-challenge .plate {
+  width: 100%;
+  object-fit: contain;
+}
+
+.red-challenge {
+  background-color: #ff004c;
+}
+.red-challenge img {
+  width: 25%;
+  object-fit: contain;
+}
+
+.black-challenge {
+  background-color: #212529;
+}
+.black-challenge img {
+  width: 25%;
+  object-fit: contain;
+}
+
+.green-challenge {
+  background-color: #39a875;
+}
+.green-challenge img {
+  width: 25%;
+  object-fit: contain;
+}
+
+footer {
+  background-image: url("img/pexels-paduret-5102221_.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer img {
+  width: 2%;
+  object-fit: contain;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 559.98px) {
+  .special-challenge h1 {
+    font-size: 22px;
+  }
+  .special-challenge .gh {
+  /* Github logo created by Guillaume Beaulieu from Noun Project */
+  /* source:https://thenounproject.com/icon/github-4289652/ */
+  width: 30%;
+  object-fit: contain;
+  }
+  footer img {
+  width: 6%;
+  object-fit: contain;
+  }
+}
+
+/* Small-ish */
+@media (min-width: 560px) and (max-width: 767.98px) {
+  .special-challenge h1 {
+    font-size: 28px;
+  }
+  .special-challenge .gh {
+  /* Github logo created by Guillaume Beaulieu from Noun Project */
+  /* source:https://thenounproject.com/icon/github-4289652/ */
+  width: 20%;
+  object-fit: contain;
+  }
+  footer img {
+  width: 4%;
+  object-fit: contain;
+  }
+}

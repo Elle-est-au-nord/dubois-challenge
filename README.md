@@ -10,5 +10,5 @@ W.E.B. Dubois (USA, 1868- Ghana, 1963) was a Pan-Africanist sociologist and civi
 
 During the Dubois Challenge, the aim is to reproduce some of Dubois's work using modern tools.
 
-Read me about the challenge [here](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge)
+Read me about the challenge and the Anthony Starks' instructions [here](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge)
 
