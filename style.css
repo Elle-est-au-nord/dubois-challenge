@@ -60,6 +60,62 @@ header h1 {
   object-fit: contain;
 }
 
+.present-portrait {
+  position: relative;
+}
+
+.present-portrait:hover img {
+  box-shadow: 0 0 10px RGBA(241, 218, 181, .8);
+  transition: .5s;
+}
+
+.overlay {
+  /*display: none;*/
+  position: absolute;
+  cursor: pointer;
+  background-color: RGBA(85, 43, 39, .85);
+  transition: .5s ease-out;
+  max-width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 2%;
+  right: 2%;
+  height: 0;
+  overflow: hidden;
+}
+
+.present-portrait:hover .overlay {
+  height: 100%;
+  /*display: block;*/
+}
+
+.text {
+  max-width: 100%;
+  padding: 1% 1% 1% 2%;
+  background-image: url("img/pexels-paduret-5102221_.jpg");
+  background-size: cover;
+  opacity: .85;
+  color: #552b27;
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+}
+.text h1 {
+  color: #552b27;
+  text-shadow: 2px 2px 3px #f1dab5;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.text h3 {
+  color: #552b27;
+  font-size: 22px;
+}
+
+.original-plate {
+  width: 85%;
+  object-fit: contain;
+}
+
 footer {
   background-image: url("img/pexels-paduret-5102221_.jpg");
   background-position-x: center;
@@ -79,12 +135,22 @@ footer img {
   .special-challenge .gh {
   /* Github logo created by Guillaume Beaulieu from Noun Project */
   /* source:https://thenounproject.com/icon/github-4289652/ */
-  width: 30%;
-  object-fit: contain;
+    width: 30%;
+    object-fit: contain;
+  }
+  .text  {
+    padding-bottom: 0;
+  }
+  .text h1 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .text h3 {
+    font-size: 12px;
   }
   footer img {
-  width: 6%;
-  object-fit: contain;
+    width: 6%;
+    object-fit: contain;
   }
 }
 
@@ -96,11 +162,21 @@ footer img {
   .special-challenge .gh {
   /* Github logo created by Guillaume Beaulieu from Noun Project */
   /* source:https://thenounproject.com/icon/github-4289652/ */
-  width: 20%;
-  object-fit: contain;
+    width: 20%;
+    object-fit: contain;
+  }
+  .text  {
+    padding-bottom: 0;
+  }
+  .text h1 {
+    font-size: 18px;
+    margin-bottom: 1px;
+  }
+  .text h3 {
+    font-size: 16px;
   }
   footer img {
-  width: 4%;
-  object-fit: contain;
+    width: 4%;
+    object-fit: contain;
   }
 }
