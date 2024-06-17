@@ -129,8 +129,12 @@ footer img {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 559.98px) {
+  header {
+    background-image: url("web-dubois-cover.jpg"), url("img/pexels-paduret-5102221_.jpg");
+    background-size: contain, contain;
+  }
   .special-challenge h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .special-challenge .gh {
   /* Github logo created by Guillaume Beaulieu from Noun Project */
@@ -156,6 +160,10 @@ footer img {
 
 /* Small-ish */
 @media (min-width: 560px) and (max-width: 767.98px) {
+  header {
+    background-image: url("web-dubois-cover.jpg"), url("img/pexels-paduret-5102221_.jpg");
+    background-size: contain, contain;
+  }
   .special-challenge h1 {
     font-size: 28px;
   }
