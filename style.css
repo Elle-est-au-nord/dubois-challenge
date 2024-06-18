@@ -121,6 +121,7 @@ footer {
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
 footer img {
   width: 2%;
@@ -132,6 +133,7 @@ footer img {
   header {
     background-image: url("web-dubois-cover.jpg"), url("img/pexels-paduret-5102221_.jpg");
     background-size: contain, contain;
+    height: 20vh;
   }
   .special-challenge h1 {
     font-size: 24px;
@@ -163,6 +165,7 @@ footer img {
   header {
     background-image: url("web-dubois-cover.jpg"), url("img/pexels-paduret-5102221_.jpg");
     background-size: contain, contain;
+    height: 30vh;
   }
   .special-challenge h1 {
     font-size: 28px;
