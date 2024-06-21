@@ -59,7 +59,7 @@ header h1 {
   background-color: #ff004c;
 }
 .red-challenge img {
-  width: 25%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -67,7 +67,7 @@ header h1 {
   background-color: #212529;
 }
 .black-challenge img {
-  width: 25%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -75,7 +75,7 @@ header h1 {
   background-color: #39a875;
 }
 .green-challenge img {
-  width: 25%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -89,7 +89,6 @@ header h1 {
 }
 
 .overlay {
-  /*display: none;*/
   position: absolute;
   cursor: pointer;
   background-color: RGBA(85, 43, 39, .85);
@@ -103,9 +102,26 @@ header h1 {
   overflow: hidden;
 }
 
+.overlay-flag {
+  position: absolute;
+  cursor: pointer;
+  background-color: RGBA(85, 43, 39, .85);
+  transition: .5s ease-out;
+  max-width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 1%;
+  right: 1%;
+  height: 0;
+  overflow: hidden;
+}
+
 .present-portrait:hover .overlay {
   height: 100%;
-  /*display: block;*/
+}
+
+.present-portrait:hover .overlay-flag {
+  height: 100%;
 }
 
 .text {
@@ -123,12 +139,19 @@ header h1 {
   color: #552b27;
   text-shadow: 2px 2px 3px #f1dab5;
   font-size: 26px;
-  text-transform: uppercase;
 }
 .text h3 {
   color: #552b27;
-  font-size: 22px;
+  text-shadow: 2px 2px 3px #f1dab5;
+  font-size: 20px;
+  margin-bottom: 3px;
 }
+.text h5 {
+  color: #552b27;
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+
 
 .original-plate {
   width: 85%;
@@ -141,6 +164,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
+  padding: 1% 1% 0 1%
 }
 footer img {
   width: 8%;
@@ -193,6 +217,10 @@ footer img {
   }
   .text h3 {
     font-size: 12px;
+    margin-bottom: 0;
+  }
+  .text h5 {
+    font-size: 9px;
   }
   footer img {
     width: 6%;
@@ -232,7 +260,11 @@ footer img {
     margin-bottom: 1px;
   }
   .text h3 {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+  .text h5 {
+    font-size: 11px;
   }
   footer img {
     width: 4%;
